@@ -1,0 +1,6 @@
+- asp.net core 9 web app
+- used generic repository with n-tier architecture for absolutely for include.
+- used memory cache
+- role based (.net core identity)
+- exception logger and audit (as a attribute)
+- audit saving database and txt file same time.
