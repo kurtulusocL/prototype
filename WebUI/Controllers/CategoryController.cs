@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebUI.Controllers
 {
     [ExceptionHandler]
+    [Authorize(Roles = "Admins")]
     public class CategoryController : Controller
     {
         readonly ICategoryService _categoryService;
