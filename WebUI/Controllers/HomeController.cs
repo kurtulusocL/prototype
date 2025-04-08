@@ -7,6 +7,7 @@ namespace WebUI.Controllers
 {
     [AuditLog]
     [ExceptionHandler]
+    [Authorize(Roles = "Admins")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
