@@ -9,6 +9,7 @@ namespace WebUI.Controllers
 {
     [AuditLog]
     [ExceptionHandler]
+    [Authorize(Roles = "Admins")]
     public class ProductController : Controller
     {
         readonly IProductService _productService;
