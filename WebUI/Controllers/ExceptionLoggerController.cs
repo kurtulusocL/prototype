@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebUI.Controllers
 {
     [ExceptionHandler]
+    [Authorize(Roles = "Admins")]
     public class ExceptionLoggerController : Controller
     {
         readonly IExceptionLoggerService _exceptionLoggerService;
