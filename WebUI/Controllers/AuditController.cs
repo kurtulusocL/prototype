@@ -7,6 +7,7 @@ namespace WebUI.Controllers
 {
     [AuditLog]
     [ExceptionHandler]
+    [Authorize(Roles = "Admins")]
     public class AuditController : Controller
     {
         readonly IAuditService _auditService;
