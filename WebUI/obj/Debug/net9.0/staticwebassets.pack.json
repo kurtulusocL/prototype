@@ -1,0 +1,509 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebUI.ve6ntofx78.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\AuditLogs.txt",
+      "PackagePath": "staticwebassets\\AuditLogs.txt"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\30dcf655-cdf2-4a8a-9073-f3bce7c5d761.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\30dcf655-cdf2-4a8a-9073-f3bce7c5d761.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\3d6bea3a-15fa-41a0-bb17-34d278625dd3.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\3d6bea3a-15fa-41a0-bb17-34d278625dd3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\4fd7e17d-c418-4c44-bece-95a8029f4564.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\4fd7e17d-c418-4c44-bece-95a8029f4564.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\6f84c8c9-6b99-4265-a1a0-f6951440f65b.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\6f84c8c9-6b99-4265-a1a0-f6951440f65b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\c9ec1c25-81b6-4a81-98d3-eebc8cbe0ced.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\c9ec1c25-81b6-4a81-98d3-eebc8cbe0ced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\multiImage\\051caf4a-7d03-4644-a29e-31e5fa663893.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\multiImage\\051caf4a-7d03-4644-a29e-31e5fa663893.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\multiImage\\27522fb6-8b96-4506-962a-96f7fac1412a.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\multiImage\\27522fb6-8b96-4506-962a-96f7fac1412a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\multiImage\\3e010100-c1a2-42d9-8750-e0af87e77f43.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\multiImage\\3e010100-c1a2-42d9-8750-e0af87e77f43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\multiImage\\60162d58-3c39-4104-b946-ab9b9ca6634a.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\multiImage\\60162d58-3c39-4104-b946-ab9b9ca6634a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\multiImage\\78d93ce9-1993-41d4-b4da-36c0bb55727b.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\multiImage\\78d93ce9-1993-41d4-b4da-36c0bb55727b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\multiImage\\df07b5f9-b03e-4adc-bc85-e817f81d4097.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\multiImage\\df07b5f9-b03e-4adc-bc85-e817f81d4097.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\img\\product\\multiImage\\ec97a3b9-c416-4a1a-be60-e226abdbabab.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\multiImage\\ec97a3b9-c416-4a1a-be60-e226abdbabab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\js\\deleteAlert.js",
+      "PackagePath": "staticwebassets\\js\\deleteAlert.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\js\\select.js",
+      "PackagePath": "staticwebassets\\js\\select.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\temp\\assets\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\temp\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\temp\\assets\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\temp\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\css\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\temp\\assets\\css\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\temp\\assets\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\temp\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\css\\tagsinput.css",
+      "PackagePath": "staticwebassets\\temp\\assets\\css\\tagsinput.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\temp\\assets\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\fonts\\fontawesome-webfont3e6e.html",
+      "PackagePath": "staticwebassets\\temp\\assets\\fonts\\fontawesome-webfont3e6e.html"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\temp\\assets\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\temp\\assets\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\temp\\assets\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\temp\\assets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\Chart.bundle.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\Chart.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\chart.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\jquery-ui.min.html",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\jquery-ui.min.html"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\jquery.fullcalendar.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\jquery.fullcalendar.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\js\\tagsinput.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\js\\tagsinput.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\light-gallery\\css\\lightgallery.min.css",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\light-gallery\\css\\lightgallery.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\light-gallery\\fonts\\lgd41d.eot",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\light-gallery\\fonts\\lgd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\light-gallery\\fonts\\lgd641.eot",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\light-gallery\\fonts\\lgd641.eot"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\light-gallery\\fonts\\lgd641.svg",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\light-gallery\\fonts\\lgd641.svg"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\light-gallery\\fonts\\lgd641.ttf",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\light-gallery\\fonts\\lgd641.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\light-gallery\\fonts\\lgd641.woff",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\light-gallery\\fonts\\lgd641.woff"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\light-gallery\\js\\lightgallery-all.min.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\light-gallery\\js\\lightgallery-all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\summernote\\dist\\font\\summernote4c4d.eot",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\summernote\\dist\\font\\summernote4c4d.eot"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\summernote\\dist\\font\\summernote4c4d.ttf",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\summernote\\dist\\font\\summernote4c4d.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\summernote\\dist\\font\\summernote4c4d.woff",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\summernote\\dist\\font\\summernote4c4d.woff"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\summernote\\dist\\font\\summernoted41d.eot",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\summernote\\dist\\font\\summernoted41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\summernote\\dist\\summernote-bs4.css",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\summernote\\dist\\summernote-bs4.css"
+    },
+    {
+      "Id": "C:\\Users\\kurtu\\OneDrive\\Masaüstü\\Prototype\\WebUI\\wwwroot\\temp\\assets\\plugins\\summernote\\dist\\summernote-bs4.min.js",
+      "PackagePath": "staticwebassets\\temp\\assets\\plugins\\summernote\\dist\\summernote-bs4.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WebUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.WebUI.props",
+      "PackagePath": "build\\WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.WebUI.props",
+      "PackagePath": "buildTransitive\\WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

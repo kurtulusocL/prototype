@@ -1,0 +1,60 @@
+﻿@model IEnumerable<AppUserRole>
+@{
+	ViewData["Title"] = "User Role List";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-wrapper">
+	<div class="content">
+		<div class="row">
+			<div class="col-sm-4 col-3">
+				<h4 class="page-title">@ViewData["Title"]</h4>
+			</div>
+			<div class="col-sm-8 col-9 text-right m-b-20">
+				<a asp-controller="UserRole" asp-action="Create" class="btn btn-outline-primary btn-sm btn-rounded float-right"><i class="fa fa-plus"></i> Add A New One</a> <a asp-controller="UserRole" asp-action="RoleManage" class="btn btn-outline-dark btn-sm btn-rounded float-right">User Role Manager</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="table-responsive">
+					<table class="table table-border table-striped custom-table mb-0">
+						<thead>
+							<tr>
+								<th>Role Name</th>
+								<th>Status</th>
+								<th class="text-right">Ops</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach (var item in Model)
+							{
+								<tr>
+									<td>@item.Name</td>									
+									<td>
+										@if (item.IsActive == true)
+										{
+											<span class="custom-badge status-green">Active</span>
+										}
+										else
+										{
+											<span class="custom-badge status-warning">DeActive</span>
+										}
+									</td>
+									<td class="text-right">
+										<div class="dropdown dropdown-action">
+											<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" asp-controller="UserRole" asp-action="Detail" asp-route-id="@item.Id"><i class="fa fa-info m-r-5"></i> Detail</a>
+												<a class="dropdown-item" asp-controller="UserRole" asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+											</div>
+										</div>
+									</td>
+								</tr>
+							}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

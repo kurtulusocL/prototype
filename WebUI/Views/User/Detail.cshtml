@@ -1,0 +1,83 @@
+﻿@model AppUser
+@{
+    ViewData["Title"] = "User Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-wrapper">
+    <div class="content">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4 class="page-title">@ViewData["Title"]</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-box">
+                    <div class="card-block">
+                        <p class="content-group">
+                            <a asp-controller="Account" asp-action="Register" class="btn btn-outline-primary btn-sm btn-rounded">+ Add New One</a><a asp-controller="User" asp-action="Index" class="btn btn-outline-success btn-sm btn-rounded">User List</a><a asp-controller="User" asp-action="UserManage" class="btn btn-outline-dark btn-sm btn-rounded">User Manager</a>
+                        </p>
+                        <hr />
+                        <dl class="row">
+                            <dt class="col-sm-4">
+                                Counts
+                            </dt>
+                            <dd class="col-sm-8">
+                                <ul>
+                                    <li>Products: @Model.Products.Count()</li>
+                                    <li>Unit In Stocks: @Model.UnitInStocks.Count()</li>
+                                </ul>
+                            </dd>
+                            <dt class="col-sm-4">
+                                Phone Number
+                            </dt>
+                            <dd class="col-sm-8">
+                                @if (Model.PhoneNumber != null)
+                                {
+                                    @Model.PhoneNumber
+                                }
+                                else
+                                {
+                                    <span class="badge badge-warning">No Phone Number Information</span>
+                                }
+                            </dd>
+                            <dt class="col-sm-4">
+                                Phone Number Confirmed
+                            </dt>
+                            <dd class="col-sm-8">
+                                @if (Model.PhoneNumberConfirmed == true)
+                                {
+                                    <span class="badge badge-primary">Phone Number Confirmed</span>
+                                }
+                                else
+                                {
+                                    <span class="badge badge-warning">Phone Number Not Confirmed</span>
+                                }
+                            </dd>
+                            <dt class="col-sm-4">
+                                Email Confirmed
+                            </dt>
+                            <dd class="col-sm-8">
+                                @if (Model.EmailConfirmed == true)
+                                {
+                                    <span class="badge badge-primary">Email Confirmed</span>
+                                }
+                                else
+                                {
+                                    <span class="badge badge-warning">Email Not Confirmed</span>
+                                }
+                            </dd>
+                            <dt class="col-sm-4">
+                                Created At
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Model.CreatedDate.ToLongDateString()
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

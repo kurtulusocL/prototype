@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Product>
+@{
+	ViewData["Title"] = "Product List by Category";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-wrapper">
+	<div class="content">
+		<div class="row">
+			<div class="col-sm-4 col-3">
+				<h4 class="page-title">@ViewData["Title"]</h4>
+			</div>
+			<div class="col-sm-8 col-9 text-right m-b-20">
+				<a asp-controller="Product" asp-action="Create" class="btn btn-outline-primary btn-sm btn-rounded float-right"><i class="fa fa-plus"></i> Add A New One</a><a asp-controller="Product" asp-action="Index" class="btn btn-outline-success btn-sm btn-roundedd float-right">Product List</a><a asp-controller="Product" asp-action="ProductManage" class="btn btn-outline-dark btn-sm btn-rounded float-right">Product Manager</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="table-responsive">
+					<table class="table table-border table-striped custom-table mb-0">
+						<thead>
+							<tr>
+								<th>Image</th>
+								<th>Product Code</th>
+								<th>Product Name</th>
+								<th>Price</th>
+								<th>Category</th>
+								<th>Subcategory</th>
+								<th>User</th>
+								<th>Status</th>
+								<th class="text-right">Ops</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach (var item in Model)
+							{
+								<tr>
+									<td>
+										<img src="~/img/product/@item.ImageUrl" class="img-responsive" style="max-height:100px;max-width:100px;min-height:100px;min-width:100px" asp-append-version="true" />
+									</td>
+									<td>@item.ProductCode</td>
+									<td>@item.Name</td>
+									<td>@item.Price.ToString("C2")</td>
+									<td>
+										@item.Category.Name
+									</td>
+									<td>
+										@if (item.SubcategoryId != null)
+										{
+											<a asp-controller="Product" asp-action="Subcategory" asp-route-id="@item.SubcategoryId" class="btn btn-outline-dark btn-sm btn-rounded">See More @item.Subcategory.Name</a>
+										}
+										else
+										{
+											<span class="badge badge-info">No Subcategory Info</span>
+										}
+									</td>
+									<td>
+										@if (item.AppUserId != null)
+										{
+											<a asp-controller="Product" asp-action="UserProduct" asp-route-id="@item.AppUserId" class="btn btn-outline-dark btn-sm btn-rounded">See More @item.AppUser.NameSurname</a>
+										}
+										else
+										{
+											<span class="badge badge-info">No User Info</span>
+										}
+									</td>
+									<td>
+										@if (item.IsActive == true)
+										{
+											<span class="custom-badge status-green">Active</span>
+										}
+										else
+										{
+											<span class="custom-badge status-warning">DeActive</span>
+										}
+									</td>
+									<td class="text-right">
+										<div class="dropdown dropdown-action">
+											<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a class="dropdown-item" asp-controller="Product" asp-action="CreateStock" asp-route-id="@item.Id"><i class="fa fa-plus-circle m-r-5"></i> Add Stock</a>
+												<a class="dropdown-item" asp-controller="Product" asp-action="CreateImage" asp-route-id="@item.Id"><i class="fa fa-plus-circle m-r-5"></i> Add More Image</a>
+												<a class="dropdown-item" asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id"><i class="fa fa-info m-r-5"></i> Detail</a>
+												<a class="dropdown-item" asp-controller="Product" asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+											</div>
+										</div>
+									</td>
+								</tr>
+							}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

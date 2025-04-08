@@ -1,0 +1,17 @@
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\bin\Debug\net9.0\Prototype.Entities.deps.json
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\bin\Debug\net9.0\Prototype.Entities.runtimeconfig.json
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\bin\Debug\net9.0\Prototype.Entities.dll
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\bin\Debug\net9.0\Prototype.Entities.pdb
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\bin\Debug\net9.0\Prototype.Core.dll
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\bin\Debug\net9.0\Prototype.Core.pdb
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\obj\Debug\net9.0\Prototype.Entities.csproj.AssemblyReference.cache
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\obj\Debug\net9.0\Prototype.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\obj\Debug\net9.0\Prototype.Entities.AssemblyInfoInputs.cache
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\obj\Debug\net9.0\Prototype.Entities.AssemblyInfo.cs
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\obj\Debug\net9.0\Prototype.Entities.csproj.CoreCompileInputs.cache
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\obj\Debug\net9.0\Prototyp.59AB41E2.Up2Date
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\obj\Debug\net9.0\Prototype.Entities.dll
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\obj\Debug\net9.0\refint\Prototype.Entities.dll
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\obj\Debug\net9.0\Prototype.Entities.pdb
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\obj\Debug\net9.0\Prototype.Entities.genruntimeconfig.cache
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Entities\obj\Debug\net9.0\ref\Prototype.Entities.dll

@@ -1,0 +1,12 @@
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\bin\Debug\net9.0\Prototype.Core.deps.json
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\bin\Debug\net9.0\Prototype.Core.dll
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\bin\Debug\net9.0\Prototype.Core.pdb
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\obj\Debug\net9.0\Prototype.Core.csproj.AssemblyReference.cache
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\obj\Debug\net9.0\Prototype.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\obj\Debug\net9.0\Prototype.Core.AssemblyInfoInputs.cache
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\obj\Debug\net9.0\Prototype.Core.AssemblyInfo.cs
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\obj\Debug\net9.0\Prototype.Core.csproj.CoreCompileInputs.cache
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\obj\Debug\net9.0\Prototype.Core.dll
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\obj\Debug\net9.0\refint\Prototype.Core.dll
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\obj\Debug\net9.0\Prototype.Core.pdb
+C:\Users\kurtu\OneDrive\Masaüstü\Prototype\Core\obj\Debug\net9.0\ref\Prototype.Core.dll

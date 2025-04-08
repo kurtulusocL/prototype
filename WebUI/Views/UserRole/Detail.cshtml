@@ -1,0 +1,49 @@
+﻿@model AppUserRole
+@{
+    ViewData["Title"] = "User Role Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-wrapper">
+    <div class="content">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4 class="page-title">@ViewData["Title"]</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-box">
+                    <div class="card-block">
+                        <p class="content-group">
+                            <a asp-controller="UserRole" asp-action="Create" class="btn btn-outline-primary btn-sm btn-rounded">+ Add New One</a>
+                            <a asp-controller="UserRole" asp-action="Index" class="btn btn-outline-success btn-sm btn-rounded">User Role List</a><a asp-controller="UserRole" asp-action="RoleManage" class="btn btn-outline-dark btn-sm btn-rounded">User Role Manager</a>
+                        </p>
+                        <hr />
+                        <dl class="row">
+                            <dt class="col-sm-4">
+                                Normalized Role Name
+                            </dt>
+                            <dd class="col-sm-8">
+                                @if (Model.NormalizedName != null)
+                                {
+                                    @Model.NormalizedName
+                                }
+                                else
+                                {
+                                    <span class="badge badge-info">No Information</span>
+                                }
+                            </dd>
+                            <dt class="col-sm-4">
+                                Created At
+                            </dt>
+                            <dd class="col-sm-8">
+                                @Model.CreatedDate.ToLongDateString()
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

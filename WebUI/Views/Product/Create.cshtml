@@ -1,0 +1,64 @@
+﻿@model Product
+@{
+	ViewData["Title"] = "Add A New Product";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-wrapper">
+    <div class="content">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <h4 class="page-title">@ViewData["Title"]</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form asp-asp-controller="Product" asp-action="Create" method="post" enctype="multipart/form-data">
+                    @Html.AntiForgeryToken()
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Category List <span class="text-danger">*</span></label>
+                                <select class="form-control" asp-for="CategoryId" name="CategoryId" id="category" required>
+                                    <option>-- Select One Category --</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Category List <span class="text-danger">*</span></label>
+                                <select class="form-control" asp-for="SubcategoryId" name="SubcategoryId" id="subcategory" disabled>
+                                    <option>-- Select One Subcategory --</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label>Product Name <span class="text-danger">*</span></label>
+                                <input class="form-control" type="text" asp-for="Name" name="Name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label>Product Price <span class="text-danger">*</span></label>
+                                <input class="form-control" type="text" asp-for="Price" name="Price" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label>Product Image <span class="text-danger">*</span></label>
+                                <input class="form-control btn-info" type="file" name="image" accept=".png, .jpg, .jpeg" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-t-20 text-center">
+                        <button type="submit" class="btn btn-primary submit-btn">Add Product</button>
+                        <input type="hidden" asp-for="CategoryId" />
+                        <input type="hidden" asp-for="SubcategoryId" />
+                        <input type="hidden" asp-for="AppUserId" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

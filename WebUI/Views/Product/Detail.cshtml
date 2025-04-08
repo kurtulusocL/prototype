@@ -1,0 +1,83 @@
+﻿@model Product
+@{
+	ViewData["Title"] = "Product Detail";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-wrapper">
+	<div class="content">
+		<div class="row">
+			<div class="col-sm-12">
+				<h4 class="page-title">@ViewData["Title"]</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="card-box">
+					<div class="card-block">
+						<p class="content-group">
+							<a asp-controller="Product" asp-action="Create" class="btn btn btn-primary btn-rounded"><i class="fa fa-plus"></i> Add A New One</a><a asp-controller="Product" asp-action="Index" class="btn btn btn-success btn-rounded">Product List</a><a asp-controller="Product" asp-action="ProductManage" class="btn btn btn-info btn-rounded">Product Manager</a>
+						</p>
+						<hr />
+						<dl class="row">
+							<dt class="col-sm-4">
+								Images
+							</dt>
+							<dd class="col-sm-8">
+								@Model.Images.Count()
+							</dd>
+							<dt class="col-sm-4">
+								Stocks
+							</dt>
+							<dd class="col-sm-8">
+								@Model.UnitInStocks.Count()
+							</dd>
+							<dt class="col-sm-4">
+								User Informantion
+							</dt>
+							<dd class="col-sm-8">
+								@if (Model.AppUserId != null)
+								{
+									<ul>
+										<li>User ID: @Model.AppUserId</li>
+										<li>Email: @Model.AppUser.Email</li>
+										@if (Model.AppUser.PhoneNumber != null)
+										{
+											<li>Phone Number: @Model.AppUser.PhoneNumber</li>
+										}
+										@if (Model.AppUser.EmailConfirmed == true)
+										{
+											<li>Email Confirmed User</li>
+										}
+										else
+										{
+											<li>User Email Not Confirmed</li>
+										}
+										@if (Model.AppUser.IsActive == true)
+										{
+											<li>Active User</li>
+										}
+										else
+										{
+											<li>DeActive User</li>
+										}
+									</ul>
+								}
+								else
+								{
+									<span class="badge badge-warning">No User Information</span>
+								}
+							</dd>
+							<dt class="col-sm-4">
+								Created At
+							</dt>
+							<dd class="col-sm-8">
+								@Model.CreatedDate.ToLongDateString()
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

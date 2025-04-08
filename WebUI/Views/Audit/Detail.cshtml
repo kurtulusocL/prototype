@@ -1,0 +1,59 @@
+﻿@model Audit
+@{
+	ViewData["Title"] = "Audit Detail";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-wrapper">
+	<div class="content">
+		<div class="row">
+			<div class="col-sm-12">
+				<h4 class="page-title">@ViewData["Title"]</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="card-box">
+					<div class="card-block">
+						<p class="content-group">
+							<a asp-controller="Audit" asp-action="Index" class="btn btn-outline-success btn-sm btn-rounded">Audit List</a><a asp-controller="Audit" asp-action="AuditManage" class="btn btn-outline-dark btn-sm btn-rounded">Audit Manager</a>
+						</p>
+						<hr />
+						<dl class="row">
+							<dt class="col-sm-4">
+								Host
+							</dt>
+							<dd class="col-sm-8">
+								@Model.Host
+							</dd>
+							<dt class="col-sm-4">
+								Platform
+							</dt>
+							<dd class="col-sm-8">
+								@Model.Platform
+							</dd>
+							<dt class="col-sm-4">
+								Language
+							</dt>
+							<dd class="col-sm-8">
+								@Model.Language
+							</dd>
+							<dt class="col-sm-4">
+								Username
+							</dt>
+							<dd class="col-sm-8">
+								@Model.Username
+							</dd>
+							<dt class="col-sm-4">
+								Created At
+							</dt>
+							<dd class="col-sm-8">
+								@Model.CreatedDate.ToLongDateString()
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

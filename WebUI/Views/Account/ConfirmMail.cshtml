@@ -1,0 +1,30 @@
+﻿@model ConfirmEmailDto
+@{
+	ViewData["Title"] = "Email Code";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+	<div class="col-lg-12">
+		<form asp-controller="Account" asp-action="ConfirmMail" method="post">
+			@Html.AntiForgeryToken()
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="form-group">
+						<label>Email Address <span class="text-danger">*</span></label>
+						<input class="form-control" type="text" asp-for="Email" value="@ViewData["mail"]" readonly>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="form-group">
+						<label>Code <span class="text-danger">*</span></label>
+						<input class="form-control" type="text" asp-for="ConfirmCode" name="ConfirmCode" required>
+					</div>
+				</div>
+			</div>
+			<div class="m-t-20 text-center">
+				<button type="submit" class="btn btn-primary submit-btn">Confirm Email</button>
+			</div>
+		</form>
+	</div>
+</div>

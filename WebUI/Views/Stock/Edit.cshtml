@@ -1,0 +1,42 @@
+﻿@model UnitInStock
+@{
+	ViewData["Title"] = "Update Stock";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-wrapper">
+	<div class="content">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2">
+				<h4 class="page-title">@ViewData["Title"]</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<form asp-controller="Stock" asp-action="Edit" method="post">
+					@Html.AntiForgeryToken()
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label>Stock Quantity <span class="text-danger">*</span></label>
+								<input class="form-control" type="text" asp-for="Quantity" name="Quantity" required>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label>Warehouse <span class="text-danger">*</span></label>
+								<input class="form-control" type="text" asp-for="Warehouse" name="Warehouse" required>
+							</div>
+						</div>
+					</div>
+					<div class="m-t-20 text-center">
+						<button type="submit" class="btn btn-primary submit-btn">Update Stock</button>
+						<input type="hidden" asp-for="ProductId" />
+						<input type="hidden" asp-for="AppUserId" />
+						<input type="hidden" asp-for="Id" value="@Model.Id" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

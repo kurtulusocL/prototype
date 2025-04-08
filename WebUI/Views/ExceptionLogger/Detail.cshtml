@@ -1,0 +1,53 @@
+﻿@model ExceptionLogger
+@{
+	ViewData["Title"] = "Exception Log Detail";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-wrapper">
+	<div class="content">
+		<div class="row">
+			<div class="col-sm-12">
+				<h4 class="page-title">@ViewData["Title"]</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="card-box">
+					<div class="card-block">
+						<p class="content-group">
+							<a asp-controller="ExceptionLogger" asp-action="Index" class="btn btn-outline-success btn-sm btn-rounded">Category List</a><a asp-controller="ExceptionLogger" asp-action="LogManage" class="btn btn-outline-dark btn-sm btn-rounded">Category Manager</a>
+						</p>
+						<hr />
+						<dl class="row">
+							<dt class="col-sm-4">
+								Controller Name
+							</dt>
+							<dd class="col-sm-8">
+								@Model.ControllerName
+							</dd>
+							<dt class="col-sm-4">
+								Exception Message
+							</dt>
+							<dd class="col-sm-8">
+								@Model.ExceptionMessage
+							</dd>
+							<dt class="col-sm-4">
+								Exception Stack Trace
+							</dt>
+							<dd class="col-sm-8">
+								@Model.ExceptionStackTrace
+							</dd>
+							<dt class="col-sm-4">
+								Created At
+							</dt>
+							<dd class="col-sm-8">
+								@Model.CreatedDate.ToLongDateString()
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
